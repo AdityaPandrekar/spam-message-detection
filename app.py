@@ -14,8 +14,8 @@ def predict_mail(input_text):
 
 # Streamlit code for the UI
 def main():
-    st.title("Spam Mail Detection")
-    st.write("Enter an email message to classify it as spam or not spam.")
+    st.title("Spam Mail/Message Detection")
+    st.write("Enter your message to check whether it's spam or not.")
 
     # Text input for the email message
     mail = st.text_area("Email Text")
