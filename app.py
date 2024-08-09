@@ -30,5 +30,20 @@ def main():
         else:
             st.warning("Please enter the text of the email.")
 
+    st.markdown("---")  # Add a horizontal line to separate the content
+
+    st.markdown(
+    """
+    ### Credits
+
+    This app was developed by [Aditya Pandrekar](https://yourwebsite.com).  
+    Special thanks to [Knowledge Doctor](https://www.youtube.com/@knowledgedoctor3849).
+
+    Powered by [Streamlit](https://streamlit.io/) and [GitHub](https://github.com/).
+
+    [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-brightgreen?logo=github)](https://github.com/AdityaPandrekar/spam-message-detection)
+    """
+    )
+
 if __name__ == '__main__':
     main()
