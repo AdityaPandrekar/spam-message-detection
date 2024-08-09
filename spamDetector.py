@@ -7,8 +7,8 @@ cv=pickle.load(open('vectorizer.pkl','rb'))
 def main():
 	st.title("Spam Message/Mail Detection")
 	st.write("Build with Streamlit & Python")
-	activites=["Classification"]
-	choices=st.sidebar.selectbox(activites)
+	activites=["Classification", "About"]
+	choices=st.sidebar.selectbox("Select Activities",activites)
 	if choices=="Classification":
 		st.subheader("Classification")
 		msg=st.text_input("Enter a text")
@@ -23,5 +23,16 @@ def main():
 				st.success("This is Not A Spam Email")
 			else:
 				st.error("This is A Spam Email")
+	else:
+		st.markdown(
+    	"""
+    	### Credits
+
+    	This app was developed by [Aditya Pandrekar].    
+    	Powered by [Streamlit](https://streamlit.io/) and [GitHub](https://github.com/).
+
+    	[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-brightgreen?logo=github)](https://github.com/	AdityaPandrekar/spam-message-detection)
+    	"""
+		)
 					
 main()
