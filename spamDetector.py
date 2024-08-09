@@ -31,7 +31,7 @@ def main():
     	This app was developed by [Aditya Pandrekar].    
     	Powered by [Streamlit](https://streamlit.io/) and [GitHub](https://github.com/).
 
-    	[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-brightgreen?logo=github)](https://github.com/	AdityaPandrekar/spam-message-detection)
+    	[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-brightgreen?logo=github)](https://github.com/AdityaPandrekar/spam-message-detection)
     	"""
 		)
 					
